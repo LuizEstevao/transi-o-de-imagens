@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #9f9d9d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+
+
+
+
+
+.slider {
+    background: url(https://avatars.mds.yandex.net/i?id=4740a069c8568edac7f8b61431bccb79-5232750-images-thumbs&n=13);
+    background-size: cover;
+    height: 500px;
+    width: 800px;
+    box-shadow: 0px 5px 8px rgba(33, 30, 30, 0.9);
+    animation: animate 20s infinite;
+}
+
+@keyframes animate {
+    20% {
+        background: url(https://winda10.com/wp-content/uploads/2018/08/bios.jpeg);
+        background-size: cover;
+    }
+
+    40% {
+        background: url(https://avatars.mds.yandex.net/i?id=ef12f0a1dbe1a70e74b692f98cf20dc2da7fe23f-4077532-images-thumbs&n=13);
+        background-size: cover;
+    }
+
+    60% {
+        background: url(https://avatars.mds.yandex.net/i?id=29ca04759a393187b5cdf13ee0526eab-7012204-images-thumbs&n=13);
+        background-size: cover;
+    }
+
+    80% {
+        background: url(https://avatars.mds.yandex.net/i?id=98483b8b59573715b4988b50f140de61a2f2f3f6-6605560-images-thumbs&n=13);
+        background-size: cover;
+    }
+
+    100% {
+        background: url(https://avatars.mds.yandex.net/i?id=6e63e195a7e8c54daf4561de0174063a-5583420-images-thumbs&n=13);
+        background-size: cover;
+    }
+}
